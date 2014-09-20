@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD47049019CDED7600550F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47048F19CDED7600550F26 /* Foundation.framework */; };
+		CD47049219CDED7600550F26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47049119CDED7600550F26 /* CoreGraphics.framework */; };
+		CD47049419CDED7600550F26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47049319CDED7600550F26 /* UIKit.framework */; };
+		CD47049A19CDED7700550F26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD47049819CDED7700550F26 /* InfoPlist.strings */; };
+		CD47049C19CDED7700550F26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47049B19CDED7700550F26 /* main.m */; };
+		CD4704A019CDED7700550F26 /* BFCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47049F19CDED7700550F26 /* BFCAppDelegate.m */; };
+		CD4704A319CDED7700550F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4704A119CDED7700550F26 /* Main.storyboard */; };
+		CD4704A619CDED7700550F26 /* BFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4704A519CDED7700550F26 /* BFCViewController.m */; };
+		CD4704A819CDED7700550F26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4704A719CDED7700550F26 /* Images.xcassets */; };
+		CD4704AF19CDED7700550F26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4704AE19CDED7700550F26 /* XCTest.framework */; };
+		CD4704B019CDED7700550F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47048F19CDED7600550F26 /* Foundation.framework */; };
+		CD4704B119CDED7700550F26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47049319CDED7600550F26 /* UIKit.framework */; };
+		CD4704B919CDED7700550F26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4704B719CDED7700550F26 /* InfoPlist.strings */; };
+		CD4704BB19CDED7700550F26 /* PictureSwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4704BA19CDED7700550F26 /* PictureSwapTests.m */; };
+		CD4704C819CE0A9000550F26 /* mouse_download.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4704C519CE0A9000550F26 /* mouse_download.png */; };
+		CD4704C919CE0A9000550F26 /* dog_download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD4704C619CE0A9000550F26 /* dog_download.jpeg */; };
+		CD4704CA19CE0A9000550F26 /* cat_image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD4704C719CE0A9000550F26 /* cat_image.jpeg */; };
+		CD4704CE19CE0AFD00550F26 /* shark_download.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4704CB19CE0AFD00550F26 /* shark_download.png */; };
+		CD4704CF19CE0AFD00550F26 /* lion_download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD4704CC19CE0AFD00550F26 /* lion_download.jpeg */; };
+		CD4704D019CE0AFD00550F26 /* tiger_download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD4704CD19CE0AFD00550F26 /* tiger_download.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4704B219CDED7700550F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD47048419CDED7600550F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD47048B19CDED7600550F26;
+			remoteInfo = PictureSwap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD47048C19CDED7600550F26 /* PictureSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD47048F19CDED7600550F26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD47049119CDED7600550F26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD47049319CDED7600550F26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD47049719CDED7700550F26 /* PictureSwap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictureSwap-Info.plist"; sourceTree = "<group>"; };
+		CD47049919CDED7700550F26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD47049B19CDED7700550F26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD47049D19CDED7700550F26 /* PictureSwap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictureSwap-Prefix.pch"; sourceTree = "<group>"; };
+		CD47049E19CDED7700550F26 /* BFCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFCAppDelegate.h; sourceTree = "<group>"; };
+		CD47049F19CDED7700550F26 /* BFCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFCAppDelegate.m; sourceTree = "<group>"; };
+		CD4704A219CDED7700550F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4704A419CDED7700550F26 /* BFCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFCViewController.h; sourceTree = "<group>"; };
+		CD4704A519CDED7700550F26 /* BFCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFCViewController.m; sourceTree = "<group>"; };
+		CD4704A719CDED7700550F26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD4704AD19CDED7700550F26 /* PictureSwapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureSwapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4704AE19CDED7700550F26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD4704B619CDED7700550F26 /* PictureSwapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictureSwapTests-Info.plist"; sourceTree = "<group>"; };
+		CD4704B819CDED7700550F26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4704BA19CDED7700550F26 /* PictureSwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureSwapTests.m; sourceTree = "<group>"; };
+		CD4704C519CE0A9000550F26 /* mouse_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse_download.png; sourceTree = "<group>"; };
+		CD4704C619CE0A9000550F26 /* dog_download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog_download.jpeg; sourceTree = "<group>"; };
+		CD4704C719CE0A9000550F26 /* cat_image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_image.jpeg; sourceTree = "<group>"; };
+		CD4704CB19CE0AFD00550F26 /* shark_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shark_download.png; sourceTree = "<group>"; };
+		CD4704CC19CE0AFD00550F26 /* lion_download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion_download.jpeg; sourceTree = "<group>"; };
+		CD4704CD19CE0AFD00550F26 /* tiger_download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger_download.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD47048919CDED7600550F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD47049219CDED7600550F26 /* CoreGraphics.framework in Frameworks */,
+				CD47049419CDED7600550F26 /* UIKit.framework in Frameworks */,
+				CD47049019CDED7600550F26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4704AA19CDED7700550F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4704AF19CDED7700550F26 /* XCTest.framework in Frameworks */,
+				CD4704B119CDED7700550F26 /* UIKit.framework in Frameworks */,
+				CD4704B019CDED7700550F26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD47048319CDED7600550F26 = {
+			isa = PBXGroup;
+			children = (
+				CD47049519CDED7600550F26 /* PictureSwap */,
+				CD4704B419CDED7700550F26 /* PictureSwapTests */,
+				CD47048E19CDED7600550F26 /* Frameworks */,
+				CD47048D19CDED7600550F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD47048D19CDED7600550F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD47048C19CDED7600550F26 /* PictureSwap.app */,
+				CD4704AD19CDED7700550F26 /* PictureSwapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD47048E19CDED7600550F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD47048F19CDED7600550F26 /* Foundation.framework */,
+				CD47049119CDED7600550F26 /* CoreGraphics.framework */,
+				CD47049319CDED7600550F26 /* UIKit.framework */,
+				CD4704AE19CDED7700550F26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD47049519CDED7600550F26 /* PictureSwap */ = {
+			isa = PBXGroup;
+			children = (
+				CD47049E19CDED7700550F26 /* BFCAppDelegate.h */,
+				CD47049F19CDED7700550F26 /* BFCAppDelegate.m */,
+				CD4704A119CDED7700550F26 /* Main.storyboard */,
+				CD4704A419CDED7700550F26 /* BFCViewController.h */,
+				CD4704A519CDED7700550F26 /* BFCViewController.m */,
+				CD4704A719CDED7700550F26 /* Images.xcassets */,
+				CD47049619CDED7600550F26 /* Supporting Files */,
+			);
+			path = PictureSwap;
+			sourceTree = "<group>";
+		};
+		CD47049619CDED7600550F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4704C419CE0A8300550F26 /* Images */,
+				CD47049719CDED7700550F26 /* PictureSwap-Info.plist */,
+				CD47049819CDED7700550F26 /* InfoPlist.strings */,
+				CD47049B19CDED7700550F26 /* main.m */,
+				CD47049D19CDED7700550F26 /* PictureSwap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4704B419CDED7700550F26 /* PictureSwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4704BA19CDED7700550F26 /* PictureSwapTests.m */,
+				CD4704B519CDED7700550F26 /* Supporting Files */,
+			);
+			path = PictureSwapTests;
+			sourceTree = "<group>";
+		};
+		CD4704B519CDED7700550F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4704B619CDED7700550F26 /* PictureSwapTests-Info.plist */,
+				CD4704B719CDED7700550F26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4704C419CE0A8300550F26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD4704CB19CE0AFD00550F26 /* shark_download.png */,
+				CD4704CC19CE0AFD00550F26 /* lion_download.jpeg */,
+				CD4704CD19CE0AFD00550F26 /* tiger_download.jpeg */,
+				CD4704C519CE0A9000550F26 /* mouse_download.png */,
+				CD4704C619CE0A9000550F26 /* dog_download.jpeg */,
+				CD4704C719CE0A9000550F26 /* cat_image.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD47048B19CDED7600550F26 /* PictureSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4704BE19CDED7700550F26 /* Build configuration list for PBXNativeTarget "PictureSwap" */;
+			buildPhases = (
+				CD47048819CDED7600550F26 /* Sources */,
+				CD47048919CDED7600550F26 /* Frameworks */,
+				CD47048A19CDED7600550F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureSwap;
+			productName = PictureSwap;
+			productReference = CD47048C19CDED7600550F26 /* PictureSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4704AC19CDED7700550F26 /* PictureSwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4704C119CDED7700550F26 /* Build configuration list for PBXNativeTarget "PictureSwapTests" */;
+			buildPhases = (
+				CD4704A919CDED7700550F26 /* Sources */,
+				CD4704AA19CDED7700550F26 /* Frameworks */,
+				CD4704AB19CDED7700550F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4704B319CDED7700550F26 /* PBXTargetDependency */,
+			);
+			name = PictureSwapTests;
+			productName = PictureSwapTests;
+			productReference = CD4704AD19CDED7700550F26 /* PictureSwapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD47048419CDED7600550F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BFC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TheGeekProjekt;
+				TargetAttributes = {
+					CD4704AC19CDED7700550F26 = {
+						TestTargetID = CD47048B19CDED7600550F26;
+					};
+				};
+			};
+			buildConfigurationList = CD47048719CDED7600550F26 /* Build configuration list for PBXProject "PictureSwap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD47048319CDED7600550F26;
+			productRefGroup = CD47048D19CDED7600550F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD47048B19CDED7600550F26 /* PictureSwap */,
+				CD4704AC19CDED7700550F26 /* PictureSwapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD47048A19CDED7600550F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4704C919CE0A9000550F26 /* dog_download.jpeg in Resources */,
+				CD4704D019CE0AFD00550F26 /* tiger_download.jpeg in Resources */,
+				CD4704A819CDED7700550F26 /* Images.xcassets in Resources */,
+				CD4704C819CE0A9000550F26 /* mouse_download.png in Resources */,
+				CD47049A19CDED7700550F26 /* InfoPlist.strings in Resources */,
+				CD4704CE19CE0AFD00550F26 /* shark_download.png in Resources */,
+				CD4704CA19CE0A9000550F26 /* cat_image.jpeg in Resources */,
+				CD4704A319CDED7700550F26 /* Main.storyboard in Resources */,
+				CD4704CF19CE0AFD00550F26 /* lion_download.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4704AB19CDED7700550F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4704B919CDED7700550F26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD47048819CDED7600550F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4704A619CDED7700550F26 /* BFCViewController.m in Sources */,
+				CD4704A019CDED7700550F26 /* BFCAppDelegate.m in Sources */,
+				CD47049C19CDED7700550F26 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4704A919CDED7700550F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4704BB19CDED7700550F26 /* PictureSwapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4704B319CDED7700550F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD47048B19CDED7600550F26 /* PictureSwap */;
+			targetProxy = CD4704B219CDED7700550F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD47049819CDED7700550F26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD47049919CDED7700550F26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD4704A119CDED7700550F26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4704A219CDED7700550F26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4704B719CDED7700550F26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4704B819CDED7700550F26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4704BC19CDED7700550F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD4704BD19CDED7700550F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4704BF19CDED7700550F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureSwap/PictureSwap-Prefix.pch";
+				INFOPLIST_FILE = "PictureSwap/PictureSwap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD4704C019CDED7700550F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureSwap/PictureSwap-Prefix.pch";
+				INFOPLIST_FILE = "PictureSwap/PictureSwap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD4704C219CDED7700550F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PictureSwap.app/PictureSwap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureSwap/PictureSwap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PictureSwapTests/PictureSwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD4704C319CDED7700550F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PictureSwap.app/PictureSwap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureSwap/PictureSwap-Prefix.pch";
+				INFOPLIST_FILE = "PictureSwapTests/PictureSwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD47048719CDED7600550F26 /* Build configuration list for PBXProject "PictureSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4704BC19CDED7700550F26 /* Debug */,
+				CD4704BD19CDED7700550F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4704BE19CDED7700550F26 /* Build configuration list for PBXNativeTarget "PictureSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4704BF19CDED7700550F26 /* Debug */,
+				CD4704C019CDED7700550F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4704C119CDED7700550F26 /* Build configuration list for PBXNativeTarget "PictureSwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4704C219CDED7700550F26 /* Debug */,
+				CD4704C319CDED7700550F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD47048419CDED7600550F26 /* Project object */;
+}
